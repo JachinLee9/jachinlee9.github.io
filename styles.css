@@ -1,0 +1,93 @@
+
+a{
+	background: ;
+	color:blue;
+	font-size: 20px;
+}
+
+a:hover{
+	color:green;
+	background:white;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 25px;
+}
+
+.greenlink:hover{
+	color:black;
+	background:green;
+}
+
+.tag{
+	font-size: 20pt;
+}
+
+.indent {
+	margin-left: 20pt;
+}
+
+.indent40 {
+	margin-left: 40pt;
+}
+
+.gap_below{
+	margin-bottom: 40pt;
+}
+/* use this to put porders around things...*/
+
+.thin_border{
+	border: 1px solid black;
+}
+
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+  margin-bottom: 10px;
+}
+
+.large-img{
+  max-width:100%;
+  margin-top: 10px;
+}
+
+
+.chapter-thumbnail {
+  margin-top: 10px;   /* add a margin to look nice */
+  white-space : pre;  /* preserve the original line breaks and spacing
+               (I need this because the content of the
+               chapter is just text not HTML, so normally
+               the line breaks would be ignored) */
+  overflow : hidden;  /* don't show a scroll bar when the text is
+                         too big to fit in the box (which it always
+                         will be but we don't mind as it is just a
+                         thumbnail) */
+  max-height: 100px;  /* make sure that the box doesn't get too big */
+  height : 150px;     /* even if the text is big */
+  border-radius: 10px;/* rounded corners */
+}
+
+#mainViewer {
+  font-size: 25px;
+  margin-top: 10px;
+  white-space : pre;    /* preserve the original line breaks (see above)*/
+}
+
+.crop-img{
+  max-height:400px;
+  max-width:100%;
+  margin-bottom: 10px;
+}
+
+.iframe {
+    display:block;
+    width:100%;
+}
+
+
+
+

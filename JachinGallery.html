@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jachin's Gallery</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<a class="greenlink" href="index.html">
+			Home   
+		</a>
+		&nbsp
+		<a href="12Lessons.html">
+			12 Lessons  
+		</a>
+		&nbsp
+		<a href="eReader.html">
+			eReader  
+		</a>
+		&nbsp
+		<a 
+		href="JachinGallery.html" class="greenlink">
+			Jachin's Gallery 
+		</a>
+
+		<hr></hr>
+
+
+
+	<div class="container">
+		<h1>
+			Jachin's Gallery
+		</h1>
+
+		<div class="row">
+			<div class="col-md-3"> 	
+				faff
+			</div>
+			<div class="col-md-3"> 	
+				saf
+			</div>
+			<div class="col-md-3"> 	
+				fsf
+			</div>
+			<div class="col-md-3"> 	
+				fag
+			</div>			
+
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-3"> 	
+				<img class="crop-img"
+				src="img_1.jpg"/>
+			</div>
+			<div class="col-md-3"> 	
+				<img class="crop-img"
+				src="img_2.jpg"/>
+			</div>
+			<div class="col-md-3"> 	
+				<img class="crop-img"
+				src="img_3.jpg"/>
+			</div>
+			<div class="col-md-3"> 	
+				<img class="crop-img"
+				src="img_4.jpg"/>
+			</div>			
+
+		</div>
+
+		<!-- 
+			this is the large image
+		-->
+		<div class="row">
+			<div class="com-md-12"> 	
+				<img id="bigImage"
+				class="large-img"
+				src="img_1.jpg"/>
+			</div>
+			
+		</div>
+	</div>
+
+	<script>
+		$(".crop-img").click(function(){
+			$("#bigImage").attr('src',
+				$(this).attr('src'));
+
+		});		
+	</script>
+
+
+</body>
+</html>
