@@ -1,39 +1,42 @@
+<!DOCTYPE html>
 <html>
-	<head>
-	<title>eReader</title>
+<head>
+		<title>Web Page of Jachin</title>
 
-	<!-- include jquery, bootstrap and our stylesheet -->
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	
-	<link rel="stylesheet"
-		  type="text/css"
-		  href="bootstrap.css"
-	      />
 
-	<link rel="stylesheet"
-		  type="text/css"
-		  href="styles.css"
-	      />	
 
+		
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	</head>
 	<body>
 
-		<a class="greenlink" href="index.html">
-			Home   
-		</a>
-		&nbsp
-		<a href="12Lessons.html">
-			12 Lessons  
-		</a>
-		&nbsp
-		<a href="eReader.html">
-			eReader  
-		</a>
-		&nbsp
-		<a 
-		href="JachinGallery.html" class="greenlink">
-			Jachin's Gallery 
-		</a>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- start collapsed navbar -->
+				<div class="navbar-header"><!-- means sit on top of every thing else, once all collapsed -->
+					<button type="button" 
+					class="navbar-toggle collapsed" 
+					data-toggle="collapse" 
+					data-target="#main_navbar" 
+					aria-expanded="false">open!</button><!-- when clicked, every things opened -->
+				</div><!-- collapsed navbar -->
+
+				<div class="collapsed navbar-collapse"
+						id="main_navbar"><!-- start un-collapsed navbar -->
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">12 Lessons</a></li>
+						<li><a href="eReader.html">DAS GEHEIMNIS DES MENSCHLICHEN LEBENS</a></li>						
+					</ul>
+				</div><!-- un-collapsed navbar -->
+				
+			</div>
+		</nav>
+
+		
+
+		<hr></hr>
 		
 	<div class="container">
 

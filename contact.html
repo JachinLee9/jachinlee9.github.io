@@ -9,22 +9,31 @@
 	<body>
 
 
-		<a class="greenlink" href="index.html">
-			Home   
-		</a>
-		&nbsp
-		<a href="aboutme.html">
-			About me   
-		</a>
-		&nbsp
-		<a href="contact.html">
-			Contact me  
-		</a>
-		&nbsp
-		<a 
-		href="JachinGallery.html" class="greenlink">
-			Jachin's Gallery
-		</a>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- start collapsed navbar -->
+				<div class="navbar-header"><!-- means sit on top of every thing else, once all collapsed -->
+					<button type="button" 
+					class="navbar-toggle collapsed" 
+					data-toggle="collapse" 
+					data-target="#main_navbar" 
+					aria-expanded="false">open!</button><!-- when clicked, every things opened -->
+				</div><!-- collapsed navbar -->
+
+				<div class="collapsed navbar-collapse"
+						id="main_navbar"><!-- start un-collapsed navbar -->
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="12Lessons.html">12 Lessons</a></li>
+						<li><a href="eReader.html">eReader</a></li>
+						<li><a href="JachinGallery.html">Jachin's Gallery</a></li>
+				</ul>
+				</div><!-- un-collapsed navbar -->
+				
+			</div>
+		</nav>
+
+		
 
 		<hr></hr>
 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	/>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<script type="text/javascript">
+
+		function change(){
+			var spanObject=document.getElementById("goodtoBad");
+			spanObject.innerHTML="bad";
+			spanObject.style.color="red";
+			spanObject.style.fontWeight="bold";
+			spanObject.style.display="none";
+		}
+	
+	</script>
+</head>
+<body>
+	<div>
+	today is a <span id="goodtoBad">good</span> day
+	</div>
+	
+
+	<button onclick="change();">Change</button>
+
+	<div class="Container">
+		<h1> Here are the photos</h1>
+		
+		<!-- start breadcrumb -->
+		<ol class="breadcrumb">
+			<li><a href="test.html">Album</a></li>
+			<li><a href="test.html">Album Family</a></li>
+			<li><a href="test.html">Photo 1</a></li>
+		</ol>
+		<!-- start breadcrumb -->
+	</div>
+
+</body>
+</html>
